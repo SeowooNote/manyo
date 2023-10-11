@@ -1,0 +1,135 @@
+/* react-bootstrap tabs */
+.container{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.container > ul li{
+    width: 25%
+}
+
+.container > ul li > button{
+    width: 100%;
+    font-size: 27px;
+    font-weight: 600;
+    color: #ccc;
+}
+
+.container > ul li > button:hover{
+    color: #b70010;
+}
+
+.total_content{
+    margin-top: 50px;
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.total_item{
+    width: 285px;
+    height: 450px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.total_item img{
+    width: 100%;
+    background-color: #eceaeb;
+}
+
+.total_item > h1{
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #b70010;
+    font-size: 20px;
+    color: white;
+}
+
+.total_item > h2{
+    position: absolute;
+    top: 159.6px;
+    left: 50%;
+    margin-left: -87.155px;
+    color: #3d3a35;
+    font-size: 50px;
+}
+
+.total_item > h3{
+    margin-top: 10px;
+    font-size: 22px;
+    color: #3d3a35;
+    font-weight: 600;
+}
+
+.total_item > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    width: 285px;
+}
+
+.total_item > div > div{
+    display: flex;
+    align-items: center;
+}
+
+.total_item > div > h2{
+    font-size: 26px;
+    color: #3d3a35;
+    font-weight: 700;
+}
+
+.total_item > div > div > h4{
+    font-size: 22px;
+    color: #3d3a35;
+    font-weight: 500;
+}
+
+.total_item > div > div> span{
+    font-size: 22px;
+    color: red;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+/* 재구매 BEST 기획전 */
+.repurchase .total_content{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.repurchase .total_content > div{
+    margin-right: 18.75px;
+}
+
+.repurchase .total_content > div:nth-child(5n){
+    margin-right: 0;
+}
+
+.repurchase .total_content > div:last-child{
+    margin-right: 0;
+}
+
+/* 비건 라인 특가 */
+.vegan .total_content{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.vegan .total_content > div{
+    margin-right: 18.75px;
+}
+
+.vegan .total_content > div:nth-child(5n){
+    margin-right: 0;
+}
+
+.vegan .total_content > div:last-child{
+    margin-right: 0;
+}

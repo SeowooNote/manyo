@@ -1,0 +1,796 @@
+.container{
+    margin-top: 50px;
+    width: 1500px;
+    color: #b70010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* react-bootstrap tabs */
+.container > ul li{
+    width: 33.3%;
+}
+
+.container > ul li > button{
+    width: 100%;
+    font-size: 28px;
+    font-weight: 600;
+    color: #ccc;
+}
+
+.container > ul li > button:hover{
+    color: #b70010;
+}
+
+/* 브랜드 스토리 1 */
+.brand_story1{
+    width: 1500px;
+    height: 650px;
+    overflow: hidden;
+    position: relative;
+}
+
+.brand_story1 h2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -507.4px;
+    font-size: 100px;
+}
+
+.brand_story1 h2 span{
+    font-style: italic;
+    font-weight: 250;
+}
+
+.brand_story1 h3{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-left: -258.305px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/* 브랜드 스토리 2 */
+.brand_story2{
+    width: 1500px;
+    height: 500px;
+    position: relative;
+}
+
+.brand_story2 h2:first-child{
+    position: absolute;
+    top: 50px;
+    font-size: 26px;
+}
+
+.brand_story2 h2:nth-child(2){
+    color: #3d3a35;
+    position: absolute;
+    top: 120px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.brand_story2 h2:nth-child(3){
+    color: #3d3a35;
+    position: absolute;
+    top: 300px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.brand_story2 h2:last-child{
+    color: #3d3a35;
+    position: absolute;
+    top: 350px;
+    font-size: 26px;
+}
+
+/* 브랜드 스토리 3 */
+.brand_story3{
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand_story3 h2{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.brand_story3 h2:nth-child(2){
+    font-size: 35px;
+    font-weight: 600;
+    color: #3d3a35;
+}
+
+.brand_story3 h2:last-child{
+    color: #3d3a35;
+    font-weight: 400;
+}
+
+/* 브랜드 스토리 4 */
+.brand_story4{
+    width: 1500px;
+    height: 1220.53px;
+    position: relative;
+}
+
+.brand_story4 > div{
+    display: flex;
+}
+
+.brand_story4 > div > img:first-child{
+    position: absolute;
+    left: -210px;
+}
+
+.brand_story4 > div > img:last-child{
+    position: absolute;
+    right: -210px;
+}
+
+.brand_story4 h2{
+    position: absolute;
+    top: 750px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #3d3a35;
+}
+
+.brand_story4 p{
+    position: absolute;
+    top: 900px;
+    font-size: 26px;
+    color: #3d3a35;
+}
+
+/* 브랜드 스토리 5 */
+.brand_story5{
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.brand_story5 > h2:nth-child(2){
+    margin-top: 80px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #3d3a35;
+}
+
+.brand_story5 > h2:nth-child(3){
+    margin-top: 80px;
+    margin-bottom: 100px;
+    color: #3d3a35;
+    font-weight: 400;
+}
+
+.brand_story5 > div{margin-bottom: 80px;}
+
+.brand_story5 > div > img:first-child{margin-right: 25px;}
+
+.brand_story5_plus{
+    width: 1030px;
+}
+
+.brand_story5_plus > h2:nth-child(2){
+    margin-top: 80px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #3d3a35;
+}
+
+.brand_story5_plus > p{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    color: #3d3a35;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+/* 브랜드 스토리 6 */
+.brand_story6{
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.brand_story6_plus{
+    width: 1030px;
+    margin-top: 80px;
+}
+
+.brand_story6_plus > h2:nth-child(2){
+    margin-top: 80px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #3d3a35;
+}
+
+.brand_story6_plus > p{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    color: #3d3a35;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+/* 브랜드 스토리 7 */
+.brand_story7{
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.brand_story7_plus{
+    width: 1030px;
+    margin-top: 80px;
+}
+
+.brand_story7_plus > h2:nth-child(2){
+    margin-top: 80px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #3d3a35;
+}
+
+.brand_story7_plus > p{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    color: #3d3a35;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+/* 브랜드 스토리 8 */
+.brand_story8{
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand_story8 h2{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.brand_story8 h2:nth-child(2){
+    font-size: 35px;
+    font-weight: 600;
+    color: #3d3a35;
+}
+
+.brand_story8 h2:last-child{
+    color: #3d3a35;
+    font-weight: 400;
+}
+
+/* 브랜드 스토리 9 */
+.brand_story9{
+    width: 1030px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.brand_story9 > div:first-child{
+    width: 1030px;
+    display: flex;
+    position: relative;
+}
+
+.brand_story9 > div > img:first-child{
+    width: 384.54px;
+    margin-right: 25px;
+}
+.brand_story9 > div > img:last-child{width: 619.6px;}
+
+.brand_story9_plus{
+    width: 1030px;
+}
+
+.brand_story9_plus > h2:first-child{
+    margin-top: 80px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #3d3a35;
+}
+
+.brand_story9_plus > h2:nth-child(2){
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 26px;
+    color: #3d3a35;
+    font-weight: 400;
+}
+
+.brand_story9_plus > h2:last-child{
+    margin-top: 50px;
+    font-weight: 400;
+    color: #3d3a35;
+    font-size: 26px;
+}
+
+/* 브랜드 스토리 10 */
+.brand_story10{
+    margin-top: 80px;
+    width: 1500px;
+    position: relative;
+}
+
+.brand_story10 .first{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -120.61px;
+}
+
+.brand_story10 .second{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    margin-left: -157.22px;
+    font-size: 100px;
+}
+
+.brand_story10 .third{
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    margin-left: -146.645px;
+}
+
+.brand_story10 .fourth{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -114.995px;
+}
+
+/* 브랜드 about 1 */
+.brand_about1{
+    width: 1920px;
+    height: 650px;
+    position: relative;
+}
+
+.brand_about1 h2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -326.365px;
+    font-size: 100px;
+}
+
+.brand_about1 h2 span{
+    font-style: italic;
+    font-weight: 200;
+}
+
+.brand_about1 h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -151.365px;
+}
+
+/* 브랜드 about 2 */
+.brand_about2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 0;
+    color: #3d3a35;
+}
+
+.brand_about2 h2{
+    font-size: 48px;
+}
+.brand_about2 h3{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.brand_about2 p{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* 브랜드 about 3 */
+.brand_about3{display: flex;}
+
+.brand_about3_textarea{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content: space-between;
+}
+
+.brand_about3_textarea h2, .brand_about3_textarea h3{
+    font-size: 30px;
+}
+
+.sub_num{font-size: 22px;}
+
+.sub_title{
+    font-size: 25px;
+    color: #3d3a35;
+    font-weight: 600;
+}
+
+.brand_about3_textarea p:last-child{
+    font-size: 20px;
+    color: #3d3a35;
+}
+
+/* 브랜드 about 4 */
+.brand_about4{
+    display: flex;
+    margin-top: 100px;
+}
+
+.brand_about4_textarea{
+    width: 960px;
+    padding-left: 210px;
+    padding-top: 389.5px;
+}
+
+.brand_about4_textarea p:last-child{
+    font-size: 20px;
+    color: #3d3a35;
+}
+
+/* 브랜드 about 5 */
+.brand_about5{
+    display: flex;
+    margin-top: 100px;
+}
+
+.brand_about5_textarea{
+    margin-left: 50px;
+    padding-top: 389.5px;
+}
+
+.brand_about5_textarea .sub_num{
+    color: #b70010;
+}
+
+.brand_about5_textarea .sub_title{
+    font-size: 25px;
+}
+
+.brand_about5_textarea p{
+    font-size: 20px;
+    color: #3d3a35;
+}
+
+.brand_about5_textarea p:last-child{
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+/* 브랜드 about 6 */
+.brand_about6{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+
+.brand_about6 > div{
+    margin-top: 50px;
+    width: 1500px;
+}
+
+.brand_about6 > div:first-child h2, .brand_about6 > div:first-child h3{font-size: 30px;}
+
+.brand_about6 > div:last-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand_about6_left{
+    position: relative;
+}
+
+.brand_about6_1{
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+.brand_about6_2{
+    position: absolute;
+    top: 110px;
+    left: 92.5px;
+    width: 527px;
+}
+
+.brand_about6_left p:first-child{font-size: 22px;}
+
+.brand_about6_left p:nth-child(2){
+    font-size: 25px;
+    color: #3d3a35;
+    font-weight: 600;
+}
+
+.brand_about6_left p:nth-child(3){
+    font-size: 20px;
+    color: #3d3a35;
+}
+
+.brand_about6_left p:last-child{
+    font-size: 15px;
+    opacity: 0.6;
+    color: #3d3a35;
+}
+
+.brand_about6_right img{
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+.brand_about6_right > p{font-size: 22px;}
+
+.brand_about6_right p:nth-child(3){
+    font-size: 25px;
+    color: #3d3a35;
+    font-weight: 600;
+}
+
+.brand_about6_right p:last-child{
+    font-size: 20px;
+    color: #3d3a35;
+}
+
+/* 브랜드 about 7 */
+.brand_about7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 0;
+    color: #3d3a35;
+}
+
+.brand_about7 h2{
+    font-size: 30px;
+    color: #b70010;
+}
+.brand_about7 h3{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #b70010;
+}
+.brand_about7 p{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* 브랜드 about 8 */
+.brand_about8{
+    display: flex;
+    margin-top: 100px;
+}
+
+.brand_about8 img{
+    height: 550px;
+}
+
+.brand_about8_textarea{
+    margin-left: 50px;
+    padding-top: 240.5px;
+}
+
+.brand_about8_textarea .sub_num{
+    color: #b70010;
+}
+
+.brand_about8_textarea .sub_title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.brand_about8_textarea p:nth-child(3){
+    font-size: 20px;
+    font-weight: 600;
+    color: #3d3a35;
+}
+
+.brand_about8_textarea p:last-child{
+    font-size: 20px;
+    color: #3d3a35;
+}
+
+/* 브랜드 about 9 */
+.brand_about9{
+    display: flex;
+    margin-top: 100px;
+}
+
+.brand_about9 img{
+    height: 550px;
+}
+
+.brand_about9_textarea{
+    width: 960px;
+    padding-left: 210px;
+    padding-top: 260.5px;
+}
+
+.brand_about9_textarea p:nth-child(3){
+    font-size: 20px;
+    color: #3d3a35;
+    font-weight: 600;
+}
+
+.brand_about9_textarea p:last-child{
+    font-size: 20px;
+    color: #3d3a35;
+}
+
+/* 브랜드 about 10 */
+.brand_about10{
+    display: flex;
+    margin-top: 100px;
+}
+
+.brand_about10 img{
+    height: 550px;
+}
+
+.brand_about10_textarea{
+    margin-left: 50px;
+    padding-top: 240.5px;
+}
+
+.brand_about10_textarea .sub_num{
+    color: #b70010;
+}
+
+.brand_about10_textarea .sub_title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.brand_about10_textarea p:nth-child(3){
+    font-size: 20px;
+    font-weight: 600;
+    color: #3d3a35;
+}
+
+.brand_about10_textarea p:last-child{
+    font-size: 20px;
+    color: #3d3a35;
+}
+
+/* 브랜드 about 11 */
+.brand_about11{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand_about11 h2{font-size: 50px;}
+
+.brand_about11 h3{font-size: 25px;}
+
+/* 브랜드 with 1 */
+.brand_with1{position: relative;}
+
+.brand_with1 h2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -336.085px;
+    font-size: 80px;
+    font-style: italic;
+    color: white;
+    font-weight: 300;
+}
+
+.brand_with1 h3{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-left: -253.325px;
+    font-size: 26px;
+    color: white;
+    font-weight: 350;
+}
+
+/* 브랜드 with 2 */
+.brand_with2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #3d3a35;
+}
+
+.brand_with2 h3:nth-child(2){
+    margin-top: 30px;
+}
+
+.brand_with2 img{
+    margin-top: 50px;
+}
+
+.brand_with2 h3:nth-child(4){
+    margin-top: 50px;
+}
+
+.brand_with2 h3:last-child{
+    margin-top: 30px;
+}
+
+/* 브랜드 with 3 */
+.brand_with3{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.brand_with3 h2{
+    font-size: 70px;
+    color: #3d3a35;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -198.335px;
+}
+
+.brand_with3 h2 span{font-style: italic;}
+
+.brand_with3 > h3:nth-child(3){
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-left: -334.34px;
+    font-size: 30px;
+    color: #3d3a35;
+    font-weight: 500;
+}
+
+.brand_with3 > h3:last-child{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-left: -288.63px;
+    font-size: 30px;
+    color: #3d3a35;
+    font-weight: 500;
+}
+
+/* 브랜드 with 4 */
+.brand_with4{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand_with4 h2{font-size: 50px;}
+
+.brand_with4 h3{font-size: 25px;}
